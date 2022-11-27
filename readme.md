@@ -38,9 +38,9 @@
 
 ## Set script directories in .blend files
 
-  `script_directories.blend` should be in game's root folder.
+`script_directories.blend` should be in game's root folder.
 
-    Contains script which runs 1st on runtime and adds the path to the `Scripts` folder to current .blend file path.
+Contains script which runs 1st on runtime and adds the path to the `Scripts` folder to current .blend file path.
 
 Import `initScriptDirectories` object from `script_directories.blend` into any .blend file that you want to access the `scripts` folder from.
 
